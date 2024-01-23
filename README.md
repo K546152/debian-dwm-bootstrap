@@ -31,4 +31,12 @@ $ ./dwm.sh
 
 # Start DWM
 
-Once the script is done, type in `startx` in the terminal to start DWM.
+Once the script is done, the script should auto start into DWM, if not, type in `startx` in the terminal to start DWM.
+
+# Wallpaper
+I set wallpaper to the `debian.jpg` in the repo. 
+
+Set the wallpaper to whatever you liek using `feh --bg-fill /path/to/your/image.jpg`.
+
+# DWM Patches
+Feel free to patch your DWM visting [DWM Patches](https://dwm.suckless.org/patches/).
