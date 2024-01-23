@@ -43,3 +43,5 @@ Set the wallpaper to whatever you like using `feh --bg-fill /path/to/your/image.
 
 # 7. DWM Patches
 Patch your DWM visting [DWM Patches](https://dwm.suckless.org/patches/)!!
+
+Default DWM keybindings can be checked via this [awesome guide](https://gist.github.com/erlendaakre/12eb90eef84a3ab81f7b531e516c9594).
