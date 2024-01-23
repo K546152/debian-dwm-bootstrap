@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # basic utils
-sudo apt install firefox-esr vim curl htop feh scrot slock xorg xinit build-essential libx11-dev libxft-dev libxinerama-dev xcompmgr xautolock -y && \
+sudo apt install firefox-esr vim curl htop feh scrot slock xorg xinit build-essential libx11-dev libxft-dev libxinerama-dev xcompmgr xautolock pipewire alsa-utils -y && \
 
 # DWM git clone
 mkdir ~/.suckless && \

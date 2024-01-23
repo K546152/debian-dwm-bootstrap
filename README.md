@@ -9,6 +9,7 @@ Make sure the user has **sudo** previlidge and the machine has access to the int
 On minimal Debian, sudo is not pre-installed.
 
 ```
+% su
 $ apt install sudo
 $ usermod -aG sudo username
 ```
