@@ -42,8 +42,5 @@ exec dwm
 startx && \
 
 # feh background
-feh --bg-fill ~/debian-dwm-bootstrap/debian.jpg && \
+feh --bg-fill ~/debian-dwm-bootstrap/debian.jpg
 
-
-# neofetch
-neofetch
