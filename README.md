@@ -1,5 +1,5 @@
 # Debian DWM Bootsrap
-Simple script to install DWM on bare minimal Debain 12.
+Simple script to install suckless [DWM](https://dwm.suckless.org/) on bare minimal Debain 12.
 
 # Prerequisite
 Make sure the user has **sudo** previlidge and the machine has access to the internet.
