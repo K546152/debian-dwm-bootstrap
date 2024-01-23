@@ -17,7 +17,7 @@ git clone https://github.com/torrinfail/dwmblocks.git ~/.suckless/dwmblocks && \
 # DWM make install
 cd ~/.suckless/dwm && sudo make clean install && \
 
-cd ~/.suckless/st && wget https://st.suckless.org/patches/alpha/st-alpha-20220206-0.8.5.diff && patch -i st-alpha-20220206-0.8.5.diff && sudo make clean install && \
+cd ~/.suckless/st && sudo make clean install && \
 
 cd ~/.suckless/dmenu && sudo make clean install && \
 
