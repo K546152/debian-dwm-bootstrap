@@ -23,9 +23,6 @@ cd ~/.suckless/dmenu && sudo make clean install && \
 
 cd ~/.suckless/dwmblocks && sudo make clean install && \
 
-# feh background
-feh --bg-fill ~/debian-dwm-bootstrap/debian.jpg && \
-
 # .xinitrc
 echo "
 dbus-launch --exit-with-session
@@ -42,4 +39,7 @@ exec dwm
 " > ~/.xinitrc && \
 
 # startx
-startx
+startx && \
+
+# feh background
+feh --bg-fill ~/debian-dwm-bootstrap/debian.jpg && \
