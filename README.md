@@ -32,7 +32,9 @@ $ ./dwm.sh
 
 # 5. Start DWM
 
-Once the script is done, the script should auto start into DWM, if not, type in `startx` in the terminal to start DWM.
+The script should auto start into DWM, if not, type in `startx` in the terminal to start DWM.
+
+Next time boot up your machine, same just type `startx` to start DWM.
 
 # 6. Wallpaper
 I set wallpaper to the `debian.jpg` in the repo. 
