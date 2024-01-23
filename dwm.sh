@@ -12,7 +12,7 @@ git clone https://git.suckless.org/st ~/.suckless/st && \
 
 git clone https://git.suckless.org/dmenu ~/.suckless/dmenu && \
 
-git clone git@github.com:torrinfail/dwmblocks.git ~/.suckless/dwmblocks && \
+git clone https://github.com/torrinfail/dwmblocks.git ~/.suckless/dwmblocks && \
 
 # DWM make install
 cd ~/.suckless/dwm && sudo make clean install && \
