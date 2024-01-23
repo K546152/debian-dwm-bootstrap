@@ -1,7 +1,7 @@
 # 1. Debian DWM Bootsrap
 Simple script to install suckless [DWM](https://dwm.suckless.org/) on bare minimal Debain 12.
 
-# Prerequisite
+# 2. Prerequisite
 Make sure the user has **sudo** previlidge and the machine has access to the internet.
 
 ## Sudo
@@ -14,14 +14,14 @@ $ usermod -aG sudo username
 ```
 Swap username with your actual username, reboot the machine and loging as user.
 
-# 2. Clone the repo
+# 3. Clone the repo
 
 ```
 $ sudo apt install git
 $ git clone https://github.com/Kouei-Lin/debian-dwm-bootstrap ~/debian-dwm-bootstrap
 ```
 
-# 3. Run the script
+# 4. Run the script
 
 ```
 $ cd ~/debian-dwm-bootstrap
@@ -29,14 +29,14 @@ $ chmod +x dwm.sh
 $ ./dwm.sh
 ```
 
-# 4. Start DWM
+# 5. Start DWM
 
 Once the script is done, the script should auto start into DWM, if not, type in `startx` in the terminal to start DWM.
 
-# 5. Wallpaper
+# 6. Wallpaper
 I set wallpaper to the `debian.jpg` in the repo. 
 
 Set the wallpaper to whatever you like using `feh --bg-fill /path/to/your/image.jpg`.
 
-# 6. DWM Patches
+# 7. DWM Patches
 Patch your DWM visting [DWM Patches](https://dwm.suckless.org/patches/)!!
