@@ -4,7 +4,7 @@
 sudo apt install firefox vim curl htop feh scrot slock xorg xinit build-essential libx11-dev libxft-dev libxinerama-dev xcompmgr xautolock -y && \
 
 # DWM git clone
-mkdir ~/.suckless
+mkdir ~/.suckless && \
 
 git clone https://git.suckless.org/dwm ~/.suckless/dwm && \
 
