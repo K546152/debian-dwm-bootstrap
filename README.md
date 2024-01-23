@@ -36,7 +36,7 @@ Once the script is done, the script should auto start into DWM, if not, type in 
 # 5. Wallpaper
 I set wallpaper to the `debian.jpg` in the repo. 
 
-Set the wallpaper to whatever you liek using `feh --bg-fill /path/to/your/image.jpg`.
+Set the wallpaper to whatever you like using `feh --bg-fill /path/to/your/image.jpg`.
 
 # 6. DWM Patches
 Patch your DWM visting [DWM Patches](https://dwm.suckless.org/patches/)!!
