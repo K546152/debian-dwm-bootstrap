@@ -36,5 +36,5 @@ exec dwm
 startx && \
 
 # feh background
-feh --bg-fill ~/debian-dwm-bootstrap/debian.jpg
+feh --bg-fill ~/.suckless/debian.jpg
 
