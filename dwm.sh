@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # basic utils
-sudo apt install neofetch vim curl htop feh scrot slock xorg xinit build-essential libx11-dev libxft-dev libxinerama-dev xcompmgr xautolock pipewire alsa-utils -y && \
+sudo apt install neofetch vim curl htop feh scrot flameshot firefox-esr slock xorg xinit build-essential libx11-dev libxft-dev libxinerama-dev xcompmgr xautolock pipewire alsa-utils -y && \
 
 # DWM git clone
 mkdir ~/.suckless && \
@@ -30,11 +30,11 @@ xcompmgr &
 xautolock -time 10 -locker slock &
 
 exec dwm
-" > ~/.xinitrc && \
+" > ~/.xsession && \
 
 # startx
 startx && \
 
 # feh background
-feh --bg-fill ~/.suckless/debian.jpg
+feh --bg-fill ~/.suckless/bg/bg.jpg
 
