@@ -6,7 +6,7 @@ sudo apt install neofetch vim curl htop feh scrot slock xorg xinit build-essenti
 # DWM git clone
 mkdir ~/.suckless && \
 
-git clone https://github.com/Kouei-Lin/debian-dwm-bootstrap ~/.suckless && \
+git clone https://github.com/Kouei-Lin/dwm-dotfiles ~/.suckless && \
 
 # DWM make install
 cd ~/.suckless/dwm && sudo make clean install && \
