@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # basic utils
-sudo apt install neofetch vim curl htop feh scrot flameshot firefox-esr slock xorg xinit build-essential libx11-dev libxft-dev libxinerama-dev xcompmgr xautolock pipewire alsa-utils -y && \
+sudo apt install neofetch vim curl htop feh scrot flameshot firefox-esr slock xorg xinit build-essential libx11-dev libxft-dev libxinerama-dev xcompmgr xautolock pipewire alsa-utils fonts-noto fonts-noto-cjk fonts-noto-color-emoji -y && \
 
 # DWM git clone
 mkdir ~/.suckless && \
