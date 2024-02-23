@@ -39,7 +39,7 @@ The script should auto start into DWM, if not, type in `startx` in the terminal 
 Next time boot up your machine, same just type `startx` to start DWM.
 
 # 6. Wallpaper
-I set wallpaper to the `bg.jpg` in the repo. 
+I set wallpaper to the `bg.jpg` in the [dotfiles](https://github.com/Kouei-Lin/dwm-dotfiles) repo. 
 
 Set the wallpaper to whatever you like using `feh --bg-fill /path/to/your/image.jpg`.
 
