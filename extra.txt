@@ -4,7 +4,7 @@ QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 SDL_IM_MODULE=fcitx
 
-# ~/.xinitrc
+# ~/.xsession
 xinput --set-prop 'TOUCHPAD_NAME' 'libinput Natural Scrolling Enabled' 1 &
 xrandr --output MAIN_DISPLAY --auto --output OUTPUT_DISPLAY --auto --right-of MAIN_DISPLAY &
 xrandr --output MAIN_DISPLAY --auto --output OUTPUT_DISPLAY --auto --left-of MAIN_DISPLAY
