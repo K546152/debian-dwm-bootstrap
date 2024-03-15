@@ -25,3 +25,8 @@ if [ "$TTY" = "/dev/tty1"];
 then
 	startx
 fi
+
+# ufw
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
