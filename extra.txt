@@ -1,0 +1,27 @@
+# /etc/environment
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+SDL_IM_MODULE=fcitx
+
+# ~/.xinitrc
+xinput --set-prop 'TOUCHPAD_NAME' 'libinput Natural Scrolling Enabled' 1 &
+xrandr --output MAIN_DISPLAY --auto --output OUTPUT_DISPLAY --auto --right-of MAIN_DISPLAY &
+xrandr --output MAIN_DISPLAY --auto --output OUTPUT_DISPLAY --auto --left-of MAIN_DISPLAY
+
+
+# /etc/X11/xorg.conf.d/30-touchpad.conf
+Section "InputClass"
+    Identifier "touchpad catchall"
+    Driver "libinput"
+    Option "Tapping" "on"
+EndSection
+
+# /etc/udev/rules.d/99-hidraw-permission.rules
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666"
+
+# ~/.*shrc
+if [ "$TTY" = "/dev/tty1"];
+then
+	startx
+fi
