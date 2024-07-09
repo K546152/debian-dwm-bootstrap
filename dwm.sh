@@ -6,7 +6,7 @@ sudo apt install neofetch vim curl htop feh scrot flameshot firefox-esr slock xo
 # DWM git clone
 mkdir ~/.suckless && \
 
-git clone https://github.com/Kouei-Lin/dwm-dotfiles ~/.suckless && \
+git clone https://github.com/K546152/dwm-dotfiles ~/.suckless && \
 
 # DWM make install
 cd ~/.suckless/dwm && sudo make clean install && \
