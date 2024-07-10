@@ -21,7 +21,7 @@ Swap username with your actual username, reboot the machine and loging as user.
 
 ```
 $ sudo apt install git
-$ git clone https://github.com/Kouei-Lin/debian-dwm-bootstrap ~/debian-dwm-bootstrap
+$ git clone https://github.com/K546152/debian-dwm-bootstrap ~/debian-dwm-bootstrap
 ```
 
 # 4. Run the script
